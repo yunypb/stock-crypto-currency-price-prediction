@@ -41,3 +41,28 @@
 ├── README.md                           # Этот файл
 └── requirements.txt                    # Список зависимостей
 ```
+
+
+## Примеры графиков
+
+### Сравнение RMSE моделей (акции)
+![RMSE bar](results/metrics/plots/bar_RMSE_Акции.png)
+
+### Тепловая карта ошибок
+![Heatmap](results/metrics/plots/heatmap_RMSE_Акции.png)
+
+### Кривая капитала стратегии CatBoost (доходности)
+![Equity curve](results_returns/2_CatBoost/plots/SBER_CatBoost_1.png)
+
+
+
+## Технологии и библиотеки
+
+- **Язык**: Python 3.10+
+- **Анализ данных**: pandas, numpy
+- **Статистические модели**: statsmodels, pmdarima
+- **Машинное обучение**: scikit-learn, CatBoost
+- **Нейронные сети**: PyTorch
+- **Визуализация**: Plotly
+- **Загрузка финансовых данных**: yfinance, requests
+- **Экспорт результатов**: openpyxl (Excel), Kaleido (PNG‑графики)
