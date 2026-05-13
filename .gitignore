@@ -1,0 +1,19 @@
+# Виртуальное окружение
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo 
+
+# LaTeX — временные файлы
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Скомпилированный PDF (не обязательно)
+*.pdf 

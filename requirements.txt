@@ -1,0 +1,32 @@
+# Основные библиотеки для работы с данными
+pandas
+numpy
+
+# Статистические модели
+statsmodels
+pmdarima
+
+# Машинное обучение
+scikit-learn
+catboost
+
+# Нейронные сети
+torch
+torchvision
+torchaudio
+
+# Загрузка финансовых данных
+yfinance
+requests
+
+# Визуализация
+plotly
+
+# Работа с Excel
+openpyxl
+
+# Индикатор прогресса
+tqdm
+
+# Дополнительно: для сохранения PNG из Plotly (опционально)
+kaleido
